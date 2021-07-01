@@ -102,6 +102,22 @@ class VideoPlayer:
 
         else:
             print("Cannot stop video: No video is currently playing")
+            
+            
+             ''' # a warning message if there's no video playing
+        if is_playing :
+            print(f"Stopping video: {video_playing.title}")
+            is_playing = False
+            old_video = None
+
+
+        elif not is_playing:
+            # if there's a video already playing
+            print("Cannot play video: Video does not exist")
+            old_video = None'''
+                
+         # this is another solution I came up with.. but with different variable names
+
 
     def play_random_video(self):
         """Plays a random video from the video library."""
